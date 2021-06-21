@@ -3,9 +3,9 @@ from setuptools import setup
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
     
-setuptools.setup(
+setup(
     name="gfunction-auth",
-    version="0.0.2",
+    version="0.0.3",
     author="Andrew Dircks",
     author_email="abd93@cornell.edu",
     description="A lightweight package for makeing authorized requests to Google Cloud Functions.",

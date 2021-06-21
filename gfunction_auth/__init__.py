@@ -1,5 +1,3 @@
-__version__ = "0.0.2"
-
 import requests
 import google.auth.transport.requests
 import google.oauth2.id_token
