@@ -1,11 +1,11 @@
-import setuptools
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-
+    
 setuptools.setup(
     name="gfunction-auth",
-    version="0.0.1",
+    version="0.0.2",
     author="Andrew Dircks",
     author_email="abd93@cornell.edu",
     description="A lightweight package for makeing authorized requests to Google Cloud Functions.",
@@ -16,7 +16,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent"
     ],
-    package_dir={"": "gfunction_auth"},
-    packages=setuptools.find_packages(where="gfunction_auth"),
+    packages=['gfunction_auth'],
     python_requires=">=3.7",
 )
